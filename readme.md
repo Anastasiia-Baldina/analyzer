@@ -7,15 +7,15 @@
     1) Перед тестированием выполнить DDL скрипт postgresql-DDL-scripts/create_schema.sql
     2) После тестирования выполнить DDL скрипт postgresql-DDL-scripts/drop_schema.sql
 
-## Настройки сервисов
+## Настройки сервисов (для локального запуска можно не менять)
 ### Сервис api-gateway
-url
+https://github.com/Anastasiia-Baldina/analyzer/blob/master/api-gateway-boot/src/main/resources/application.yaml
 ### Сервис file-storing
-url
+https://github.com/Anastasiia-Baldina/analyzer/blob/master/file-storing-boot/src/main/resources/application.yaml
 ### Сервис file-analysis
-url
+https://github.com/Anastasiia-Baldina/analyzer/blob/master/file-analysis-boot/src/main/resources/application.yaml
 ### Сервис api-word-cloud
-url
+https://github.com/Anastasiia-Baldina/analyzer/blob/master/api-word-cloud-boot/src/main/resources/application.yaml
 
 ## Сборка проекта
 mvn clean package
