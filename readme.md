@@ -7,8 +7,8 @@ https://github.com/Anastasiia-Baldina/analyzer/blob/master/%D0%9A%D0%9F%D0%9E%20
     3) СУБД PostgreSQL
 
 ## Настройка БД Postgres
-    1) Перед тестированием выполнить DDL скрипт postgresql-DDL-scripts/create_schema.sql
-    2) После тестирования выполнить DDL скрипт postgresql-DDL-scripts/drop_schema.sql
+    1) Перед тестированием выполнить DDL скрипт https://github.com/Anastasiia-Baldina/analyzer/blob/master/postgresql-DDL-scripts/create_schema.sql
+    2) После тестирования выполнить DDL скрипт https://github.com/Anastasiia-Baldina/analyzer/blob/master/postgresql-DDL-scripts/drop_schema.sql
 
 ## Настройки сервисов (для локального запуска можно не менять)
 ### Сервис api-gateway
