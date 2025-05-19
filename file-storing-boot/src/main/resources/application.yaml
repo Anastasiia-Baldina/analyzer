@@ -1,0 +1,16 @@
+server:
+# tcp-ip порт, на котором будет доступен web-сервер
+  port: 8081
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+# настройки подключения к БД
+db:
+  url: "jdbc:postgresql://localhost:5432/postgres"
+  schema: bas_file_store
+  user: baldina_a_s
+  password: postgres
+# директория, в которой будут хранится файлы пользователей
+file-dir: files

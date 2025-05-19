@@ -1,0 +1,15 @@
+server:
+# tcp-ip порт, на котором будет доступен web-сервер
+  port: 8082
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+remote-endpoints:
+  file-storing-service: http://localhost:8081
+  word-cloud-service: http://localhost:8083
+# директория, в которой будут хранится word-cloud картинки
+picture-dir: target/pictures
+# алгоритм расчета хэша текста
+hash-algorithm: MD5
