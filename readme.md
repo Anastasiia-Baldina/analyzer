@@ -3,7 +3,7 @@ https://github.com/Anastasiia-Baldina/analyzer/blob/master/%D0%9A%D0%9F%D0%9E%20
 
 ## Пререквизиты 
     1) Java (JDK v21)
-    2) Maven не ниже 3.9.9
+    2) Maven 3.9.9
     3) СУБД PostgreSQL
 
 ## Настройка БД Postgres
