@@ -26,6 +26,8 @@ https://github.com/Anastasiia-Baldina/analyzer/blob/master/api-word-cloud-boot/s
 mvn clean package
 
 ## Запуск проекта (из директории проекта)
+### При запуске сервисов в OS Windows через PowerShell необходимо установить кодировку UTF-8 для корректного отображения кириллицы в логах консоли. В web-интерфейсе кириллица отображается корректно. 
+[Console]::OutputEncoding = [Text.UTF8Encoding]::UTF8
 ### Сервис api-word-cloud
 java -jar api-word-cloud-boot/target/api-word-cloud-boot-1.0.jar
 ### Сервис file-storing
